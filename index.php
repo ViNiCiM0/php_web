@@ -57,50 +57,7 @@ $videoList = $pdo->query("SELECT * FROM videos")->fetchAll(PDO::FETCH_ASSOC);
         <?php endif; ?>
     <?php endforeach; ?>
 
-
-    <li class="videos__item">
-        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/Tsq_WOi_8Rw"
-                title="Voltando ao mercado após a maternidade: Ana Silvério" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.svg" alt="logo canal">
-            <h3>Nuno Maduro invites you at Laravel PHP Meetup in Paris - November 2017</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
-            </div>
-        </div>
-    </li>
-    <li class="videos__item">
-        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/cdL_F3FiSWI"
-                title="Mercado de Trabalho | Desmistificando Mobile - Episódio 5" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.svg" alt="logo canal">
-            <h3>Contribuindo para projetos open source - Criando um pull request real no GitHub | Dias de Dev</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
-            </div>
-        </div>
-    </li>
-    <li class="videos__item">
-        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/vvblNse0y5M"
-                title="Conhecendo a linguagem Go | Hipsters.Talks" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div class="descricao-video">
-            <img src="./img/logo.svg" alt="logo canal">
-            <h3>UniSenai PR</h3>
-            <div class="acoes-video">
-                <a href="./pages/enviar-video.html">Editar</a>
-                <a href="./pages/enviar-video.html">Excluir</a>
-            </div>
-        </div>
-    </li>
 </ul>
-</body>
 
-</html>
+
+
